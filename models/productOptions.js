@@ -17,7 +17,10 @@ module.exports = (sequelize, DataTypes) => {
     ProductOptions.belongsTo(models.Options, {
       foreignKey: 'option_id',
     });
-
+    // ProductOptions.create({
+    //   orderProduct_id: 3,
+    //   option_id: 1
+    // })
   };
   return ProductOptions;
 };

@@ -24,5 +24,9 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey: 'orderProduct_id',
     });
   };
+  // OrderProducts.create({
+  //   order_id: 2,
+  //   product_id: 5
+  // })
   return OrderProducts;
 };

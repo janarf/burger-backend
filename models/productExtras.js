@@ -18,5 +18,10 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey: 'extra_id',
     })
   };
+  // ProductExtras.create({
+  //   orderProduct_id: 3,
+  //   extra_id: 2
+
+  // })
   return ProductExtras;
 };
